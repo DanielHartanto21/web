@@ -1,0 +1,45 @@
+body {
+  background-image: url(foto/Background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.justify {
+  text-align: justify;
+}
+table {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+}
+input {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  height: 20px;
+}
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 800px;
+  height: 400px;
+  background-color: lightgray;
+  border-radius: 9px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}

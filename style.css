@@ -1,0 +1,130 @@
+header h1.title,
+header h3.desc {
+  text-align: center;
+}
+body {
+  width: 70%;
+  margin: auto;
+}
+a:link {
+  color: gray;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: rebeccapurple;
+}
+a:active {
+  color: teal;
+}
+#navigation {
+}
+p {
+  font-size: 110%;
+  color: black;
+}
+#contents {
+  float: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-family: sans-serif;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #fff;
+}
+footer {
+  text-align: center;
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.justify {
+  text-align: justify;
+}
+@import url("https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(image/2018-02-19.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: #3498db;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: #fff;
+}
+
+.login {
+  padding: 1em;
+  margin: 2em auto;
+  width: 17em;
+  background: #fff;
+  border-radius: 3px;
+}
+
+label {
+  font-size: 10pt;
+  color: #555;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  padding: 8px;
+  width: 95%;
+  background: #efefef;
+  border: 0;
+  font-size: 10pt;
+  margin: 6px 0px;
+}
+
+.tombol {
+  background: #3498db;
+  color: #fff;
+  border: 0;
+  padding: 5px 8px;
+  margin: 20px 0px;
+}
